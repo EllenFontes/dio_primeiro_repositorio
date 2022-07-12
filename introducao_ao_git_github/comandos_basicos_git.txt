@@ -1,1 +1,11 @@
-Comandos básicos do git
+Comandos básicos do git:
+
+
+ls: Lista todos os diretórios na pasta onde estamos situados
+CD: change directory, permite que naveguemos entre as pastas
+Mkdir + nome: cria uma pasta/diretório 
+Git add *: move todos os arquivos de untracked para staged
+Git commit -m "commit": Cria um commit
+Git push: empurra arquivos do repositório local para o remoto
+Git pull: puxa arquivos do repositório remoto para o local
+Git clone + link: clona um zip do github
