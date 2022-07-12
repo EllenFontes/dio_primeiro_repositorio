@@ -1,1 +1,27 @@
-Anotações
+Anotações:
+
+
+Git: Software de versionamento de código distribuido.
+
+Sha1: Secure hash algorithm, é um conjunto de funções hash criptográficas projetadas pela NSA.
+A encriptação gera conjunto de 40 dígitos únicos 
+
+Chaves SSH: Secure shell, estabelece uma conexão segura e encriptada entre duas máquinas
+
+
+Objetos internos do git:
+
+Blobs: 
+Bloco básico de composição, usado para armazenar conteúdo de um único arquivo, 
+contendo metadados do objeto, como o tipo do objeto, tamanho da string ou arquivo, etc... 
+
+Trees:
+Trabalha como um mapa, retendo dados(metadados) dos arquivos que ela aponta, relaciona o nome
+do arquivo ao hash gerado, monta a estrutura de onde está localizado os arquivos. 
+Pode apontar para os blobs ou outras arvores.
+
+Commits: 
+Armazena todos os dados da árvore que existe até o momento.
+O objeto commit contém um direcionamento para a arvore principal.
+Contem informações como autor, mensagem, e faz referencia para outras arvores.
+
